@@ -1,0 +1,51 @@
+name: drum_x
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  audioplayers: ^0.20.1
+  smooth_corner: ^1.1.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/
+    - assets/
+    
+  fonts:
+    - family: gilroy-bold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+    - family: Gilroy-Medium
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf 
+    - family: Gilroy-Regular
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+
